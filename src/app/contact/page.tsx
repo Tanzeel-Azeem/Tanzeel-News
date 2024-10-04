@@ -1,21 +1,17 @@
 export default function Contact() {
   return (
-    <div>
+    <div >
       <div>
-        <h1 className="text-center text-3xl  font-sans">
+        <h1 className=" ml-96 text-3xl  font-sans">
           <u>
             Contact-Us <br />
             <br />
           </u>
         </h1>
 
-        <div className="flex items-center">
-          <img
-            className="  h-80"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBE3SbW1v0eNfsfQ_qPtjysvARCl1IZgYPg&s"
-            alt=""
-          />{" "}
-          <div className="ml-32 text-xl font-sans ">
+        <div className="flex items-center ml-96">
+         
+          <div className=" text-xl font-sans ">
             <p>
               Our FaceBook page link :
               <a

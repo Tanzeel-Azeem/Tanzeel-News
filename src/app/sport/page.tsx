@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Sport() {
   return (
     <div>
@@ -9,11 +11,18 @@ export default function Sport() {
       </div>
       {/* sczency */}
       <div className="flex items-center">
-        <img
+        
+        
+        <Image
           className="h-60 ml-7"
-          src="https://images2.minutemediacdn.com/image/upload/c_crop,w_3320,h_1867,x_1019,y_308/c_fill,w_912,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01j96spywtjj19q4ax8n.jpg"
+          src="/images/szny.webp"
           alt=""
+          width={500}
+          height={500}
         />
+
+
+
         <p className="ml-10 mr-5 text-xl">
           <strong className="text-2xl">
             {" "}
@@ -27,11 +36,17 @@ export default function Sport() {
       <div>
         {/* Mbappe */}
         <div className="flex items-center">
-          <img
+          
+          
+          <Image
             className="h-60 ml-7 mt-7"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJKKuIhcs_xm0FdulvpxZB56Zw0uk4rXJ8Q&s"
-            alt=""
+            src="/images/mbappe.jpeg"
+            alt="mbappe"
+            width={500}
+            height={500}
           />
+
+
           <p className="ml-10 mr-5 text-xl">
             <strong className="text-2xl">
               KYLIAN MBAPPE to Real Madrid <br />
@@ -46,11 +61,17 @@ export default function Sport() {
       <div>
         {/* Chiesa */}
         <div className="flex items-center">
-          <img
+
+            
+        <Image
             className="h-60 ml-7 mt-7"
-            src="https://assets.goal.com/images/v3/bltec60c9087338416a/677f3757bb96373644ef73c31222fcb0663fc5a3.jpg?auto=webp&format=pjpg&width=3840&quality=60"
-            alt=""
+            src="/images/chiesa.webp"
+            alt="Chiesa"
+            width={500}
+            height={500}
           />
+
+
           <p className="ml-10 mr-5 text-xl">
             <strong className="text-2xl">
               FEDERICO CHIESA to Liverpool <br />
@@ -73,11 +94,17 @@ export default function Sport() {
       <div>
         {/* Chiesa */}
         <div className="flex items-center">
-          <img
+          
+                
+        <Image
             className="h-60 ml-7 mt-7"
-            src="https://assets.goal.com/images/v3/bltcd31b5c21e100b8f/griezmann-aus-16-9.jpg"
-            alt=""
+            src="/images/griezman.jpg"
+            alt="griezman"
+            width={500}
+            height={500}
           />
+
+
           <p className="ml-10 mr-5 text-xl">
             <strong className="text-2xl">
               Antoine GriezmannFrench footballer
@@ -93,13 +120,19 @@ export default function Sport() {
       </div>
       {/* //////// */}
       <div>
-        {/* Chiesa */}
+        {/* kroos */}
         <div className="flex items-center">
-          <img
+
+                
+        <Image
             className="h-60 ml-7 mt-7"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Rl9bniGskBRCWYuDHDOogpegrQ8b5R5VvQ&s"
-            alt=""
+            src="/images/kroos.jpeg"
+            alt="griezman"
+            width={500}
+            height={500}
           />
+
+
           <p className="ml-10 mr-5 text-xl">
             <strong className="text-2xl">
               TONI KROOS German footballer <br />
@@ -115,13 +148,20 @@ export default function Sport() {
       {/* ////////////////////// */}
 
       <div>
-        {/* Chiesa */}
+        {/* pepe */}
         <div className="flex items-center">
-          <img
+          
+          
+          <Image
             className="h-60 ml-7 mt-7"
-            src="https://tmssl.akamaized.net//images/foto/galerie/pepe-portugal-2024-1723131475-144652.jpg?lm=1723131518"
-            alt=""
+            src="/images/pepe.jpg"
+            alt="pepe"
+            width={500}
+            height={500}
+            
           />
+
+
           <p className="ml-10 mr-5 text-xl">
             <strong className="text-2xl">
               PEPE Portuguese Player <br />
